@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS PW ahdahanasabila</title>
+
+    <style>
+                
+    
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>
+                <h2> Booking Service</h2></legend>
+
+                    <form method="post">
+                <p><b>Jenis Kendaraan :</b><input type="text" style="margin-right: 30px;"placeholder="Minibus" list="jeniskendaraan"></p>
+                <datalist id="jeniskendaraan">
+                <option value="Minibus">
+                <option value="Kendaraan Pribadi"></option>
+                           
+                </option>
+                </datalist>
+
+                <label for="namapesanan" style="margin-right: 20px;"><b>Nama Pesanan : </b></label>
+                <input type ="text" id="namapesanan"> 
+
+
+                <p><b>Kategori Peminjam :</b>
+                <input type="radio" id="pribadi" name="pribadi" value="30">
+                <label for="age1">Pribadi</label>
+          
+                <input type="radio" id="perusahaan/organisasi" style="margin-right: 20px;" name="perusahaan/organisasi" value="30">
+                <label for="age1">Perusahaan/Organisasi </label></p>
+        </div>    
+
+                <label for="deskripsikebutuhan"><b>Deskripsi Kebutuhan : </b></label>
+                <textarea name="deskripsikebutuhan" id="deskripsikebutuhan" cols="30" rows="3"> 
+                
+        </textarea>
+
+        <div class="form-group">
+        <form action="/action_page.php">
+
+                <label for="jam,tanggalservice" style="margin-right: 0px;" ><b>Jam. Tanggal Service:</b></label>
+                <input type="date" id="jam,tanggalservice" name="jam,tanggalservice">    
+        </form>
+        </div>
+                <label for="requestmontir" style="margin-right: 20px;"><b>Request Montir : </b></label>
+                <input type ="text" id="requestmontir">
+                <br>
+        
+                <label for="telepon/hp" style="margin-right: 20px;"><b>Telepon/HP : </b></label>
+                <input type ="text" id="telepon/hp">
+                <br>
+    
+                <label for="email"style="margin-right: 20px;"><b>Email: </b></label>
+                <input type ="text" id="email">
+                   
+                <br>
+                <br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            
+
+                </form>
+    </fieldset>
+</body>
+</html>
